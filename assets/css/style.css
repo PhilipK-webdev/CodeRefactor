@@ -1,3 +1,5 @@
+
+/* Universal selector  */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,7 @@
 
 body {
     background-color: #d9dcd6;
+    
 }
 
 .header {
@@ -56,6 +59,7 @@ body {
     background-position: center center;
     border-style: double;
     border-color: black;
+    box-shadow: -1px 0px 13px 5px rgba(28,24,28,1);
 }
 .content {
     width: 75%;
@@ -71,7 +75,8 @@ body {
     background-color: #0072bb;
     color: #ffffff;
     border:groove;
-   
+    box-shadow: -1px 0px 13px 5px rgba(28,24,28,1);
+    
 }
 
 .web-content img {
@@ -108,6 +113,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     border:groove;
+    box-shadow: -1px 0px 13px 5px rgba(28,24,28,1);
     
 }
 
@@ -137,6 +143,7 @@ body {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+   
 }
 
 .footer h2 {
